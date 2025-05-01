@@ -1,0 +1,139 @@
+:root {
+  --dark-bgcolor: #1f2937;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", san-serif;
+}
+.hero {
+  background-color: var(--dark-bgcolor);
+  height: 90vh;
+  padding: 30px 200px 30px 200px;
+  color: white;
+}
+.herosec {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.hero-div h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+.nav-links {
+  font-size: 18px;
+  color: #e4e7eb;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header > h1 {
+  color: #f9faf8;
+  font-size: 24px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.herosec {
+  display: flex;
+  justify-content: space-between;
+}
+.herosec > div > img {
+  height: 250px;
+  width: 500px;
+}
+.sgnup {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 10px;
+  width: 140px;
+  height: 40px;
+  border: none;
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.random {
+  margin-bottom: 80px;
+}
+.random h1 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 40px;
+}
+.img-container {
+  width: 180px;
+  height: 180px;
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+}
+.randomimg {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 250px;
+  padding-left: 250px;
+  margin-top: 50px;
+}
+.quote {
+  background-color: #e5e7eb;
+  padding: 100px 150px;
+}
+.quote > p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+.quote > div {
+  display: flex;
+  justify-content: flex-end;
+}
+.quote > div > p {
+  font-size: 25px;
+  font-weight: bold;
+}
+.cta {
+  padding-right: 200px;
+  padding-left: 200px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.cta-dialog {
+  background-color: #3882f6;
+  color: white;
+  padding: 50px 100px 50px 100px;
+  border-radius: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cta-btn {
+  background-color: #3882f6;
+  border: 3px solid white;
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.cta-ori {
+  font-weight: 900;
+}
+footer {
+  background-color: var(--dark-bgcolor);
+  color: white;
+  text-align: center;
+  padding: 40px 80px;
+}
